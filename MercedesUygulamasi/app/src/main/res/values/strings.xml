@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MERCEDES</string>
+    <string name="a180Yazi">A180</string>
+    <string name="c180Yazi">C180</string>
+    <string name="c200Yazi">C200</string>
+    <string name="s350Yazi">S350</string>
+    <string name="sls350Yazi">SLS350</string>
+    <string name="slsamgYazi">SLSAMG</string>
+    <string name="a180Fiyat">50K. €</string>
+    <string name="c180Fiyat">55K. €</string>
+    <string name="c200Fiyat">60K. €</string>
+    <string name="s350Fiyat">150K. €</string>
+    <string name="sls350Fiyat">170K. €</string>
+    <string name="slsamgFiyat">190K. €</string>
+    <string name="reklamYazi">GERMAN STEEL</string>
+    <string name="buttonYazi">CHOOSE YOUR BEST CAR</string>
+</resources>

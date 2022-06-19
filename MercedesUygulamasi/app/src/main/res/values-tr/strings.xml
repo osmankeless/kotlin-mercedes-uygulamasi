@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MERCEDES</string>
+    <string name="a180Yazi">A180</string>
+    <string name="c180Yazi">C180</string>
+    <string name="c200Yazi">C200</string>
+    <string name="s350Yazi">S350</string>
+    <string name="sls350Yazi">SLS350</string>
+    <string name="slsamgYazi">SLSAMG</string>
+    <string name="a180Fiyat">900K ₺</string>
+    <string name="c180Fiyat">990K. ₺</string>
+    <string name="c200Fiyat">1M. ₺</string>
+    <string name="s350Fiyat">2.7M. ₺</string>
+    <string name="sls350Fiyat">3.1M. ₺</string>
+    <string name="slsamgFiyat">3.45. ₺</string>
+    <string name="reklamYazi">ALMAN ÇELİĞİ</string>
+    <string name="buttonYazi">EN İYİ ARACINI SEÇ</string>
+</resources>

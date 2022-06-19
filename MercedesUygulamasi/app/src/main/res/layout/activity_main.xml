@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yaziRenk2"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/yaziRenk3"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/cardo"
+            android:text="@string/app_name"
+            android:textAllCaps="false"
+            android:textColor="@color/yaziRenk1"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="141dp"
+            tools:layout_editor_absoluteY="11dp" />
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="0dp"
+        android:layout_height="190dp"
+        android:layout_marginBottom="303dp"
+        android:background="@color/yaziRenk3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/mercedessls_amg" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/cardo"
+        android:text="@string/a180Yazi"
+        android:textColor="@color/yaziRenk1"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:chipBackgroundColor="@color/anaRenk"
+        app:layout_constraintEnd_toStartOf="@+id/chip5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/cardo"
+        android:text="@string/c180Yazi"
+        android:textColor="@color/yaziRenk1"
+        android:textStyle="bold"
+        app:chipBackgroundColor="@color/anaRenk"
+        app:layout_constraintEnd_toStartOf="@+id/chip6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/chip4"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/cardo"
+        android:text="@string/c200Yazi"
+        android:textColor="@color/yaziRenk1"
+        android:textStyle="bold"
+        app:chipBackgroundColor="@color/anaRenk"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/chip5"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/anaRenk"
+        android:fontFamily="@font/cardo"
+        android:text="@string/a180Fiyat"
+        android:textColor="@color/yaziRenk1"
+        app:layout_constraintEnd_toEndOf="@+id/chip4"
+        app:layout_constraintStart_toStartOf="@+id/chip4"
+        app:layout_constraintTop_toBottomOf="@+id/chip4" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/anaRenk"
+        android:fontFamily="@font/cardo"
+        android:text="@string/c180Fiyat"
+        android:textColor="@color/yaziRenk1"
+        app:layout_constraintEnd_toEndOf="@+id/chip5"
+        app:layout_constraintStart_toStartOf="@+id/chip5"
+        app:layout_constraintTop_toBottomOf="@+id/chip5" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/anaRenk"
+        android:fontFamily="@font/cardo"
+        android:text="@string/c200Fiyat"
+        android:textColor="@color/yaziRenk1"
+        app:layout_constraintEnd_toEndOf="@+id/chip6"
+        app:layout_constraintStart_toStartOf="@+id/chip6"
+        app:layout_constraintTop_toBottomOf="@+id/chip6" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/cardo"
+        android:text="@string/s350Yazi"
+        android:textColor="@color/yaziRenk1"
+        android:textStyle="bold"
+        app:chipBackgroundColor="@color/anaRenk"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/cardo"
+        android:text="@string/sls350Yazi"
+        android:textColor="@color/yaziRenk1"
+        android:textStyle="bold"
+        app:chipBackgroundColor="@color/anaRenk"
+        app:layout_constraintEnd_toEndOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/anaRenk"
+        android:fontFamily="@font/cardo"
+        android:text="@string/slsamgYazi"
+        android:textColor="@color/yaziRenk1"
+        android:textStyle="bold"
+        app:chipBackgroundColor="@color/anaRenk"
+        app:layout_constraintEnd_toEndOf="@+id/textView4"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="48dp"
+        android:layout_height="19dp"
+        android:background="@color/anaRenk"
+        android:fontFamily="@font/cardo"
+        android:text="@string/s350Fiyat"
+        android:textColor="@color/yaziRenk1"
+        app:layout_constraintEnd_toEndOf="@+id/chip7"
+        app:layout_constraintStart_toStartOf="@+id/chip7"
+        app:layout_constraintTop_toBottomOf="@+id/chip7" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/anaRenk"
+        android:fontFamily="@font/cardo"
+        android:text="@string/sls350Fiyat"
+        android:textColor="@color/yaziRenk1"
+        app:layout_constraintEnd_toEndOf="@+id/chip8"
+        app:layout_constraintStart_toStartOf="@+id/chip8"
+        app:layout_constraintTop_toBottomOf="@+id/chip8" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/anaRenk"
+        android:fontFamily="@font/cardo"
+        android:text="@string/slsamgFiyat"
+        android:textColor="@color/yaziRenk1"
+        app:layout_constraintEnd_toEndOf="@+id/chip9"
+        app:layout_constraintStart_toStartOf="@+id/chip9"
+        app:layout_constraintTop_toBottomOf="@+id/chip9" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/cardo"
+        android:text="@string/reklamYazi"
+        android:textColor="@color/anaRenkKoyu"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/cardo"
+        android:text="@string/buttonYazi"
+        android:textColor="@color/yaziRenk1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
